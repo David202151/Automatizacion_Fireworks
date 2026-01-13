@@ -1,0 +1,166 @@
+{
+  "name": "DVE-BOL-RED-WEB-RECO_MB_26DICIEMBRE25",
+  "brand": "discover",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1946
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 88,
+      "width": 700,
+      "height": 268,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 356,
+      "width": 700,
+      "height": 149,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 505,
+      "width": 700,
+      "height": 284,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/camara-steren-monit-x-interne-cctv-235-6919",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 789,
+      "width": 700,
+      "height": 280,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/parlante-jbl-grip-68020",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1069,
+      "width": 700,
+      "height": 298,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/boss-bottled-men-edp-hugo-boss-hombre-14224",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1367,
+      "width": 700,
+      "height": 286,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/air-fryer-con-horno-chefman-9565",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1653,
+      "width": 700,
+      "height": 103,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1756,
+      "width": 700,
+      "height": 42,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 1798,
+      "width": 455,
+      "height": 70,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    },
+    {
+      "name": "slice_11",
+      "x": 455,
+      "y": 1798,
+      "width": 57,
+      "height": 70,
+      "type": "image",
+      "has_url": true,
+      "url": "https://twitter.com/discoverecu?s=21&t=RhDLOB1Gi5VRakyuwoiC8g",
+      "order": 10
+    },
+    {
+      "name": "slice_12",
+      "x": 512,
+      "y": 1798,
+      "width": 57,
+      "height": 70,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.facebook.com/DiscoverEC?mibextid=LQQJ4d",
+      "order": 11
+    },
+    {
+      "name": "slice_13",
+      "x": 569,
+      "y": 1798,
+      "width": 55,
+      "height": 70,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.instagram.com/discover_ec?igsh=MWdjc3g1NmVuaTA2Nw==",
+      "order": 12
+    },
+    {
+      "name": "slice_14",
+      "x": 624,
+      "y": 1798,
+      "width": 76,
+      "height": 70,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.youtube.com/@DiscoverEcuador",
+      "order": 13
+    }
+  ]
+}

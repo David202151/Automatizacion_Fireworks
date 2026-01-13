@@ -1,0 +1,100 @@
+{
+  "name": "BGR-BOL-ACT-WEB-BENEFICIOS_22DICIEMBRE25",
+  "brand": "bgr",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2176
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 119,
+      "width": 700,
+      "height": 612,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 731,
+      "width": 700,
+      "height": 322,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1053,
+      "width": 700,
+      "height": 324,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1377,
+      "width": 700,
+      "height": 330,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1707,
+      "width": 700,
+      "height": 67,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1774,
+      "width": 700,
+      "height": 72,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1846,
+      "width": 700,
+      "height": 36,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1882,
+      "width": 700,
+      "height": 216,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

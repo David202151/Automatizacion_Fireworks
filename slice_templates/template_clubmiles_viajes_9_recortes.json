@@ -1,0 +1,111 @@
+{
+  "name": "template_clubmiles_viajes_9_recortes",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2694
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 161,
+      "width": 700,
+      "height": 745,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 906,
+      "width": 700,
+      "height": 277,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/k-edt-dolce-gabbana-hombre-7891",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1183,
+      "width": 700,
+      "height": 279,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-new-balance-lifestyle-m1000psb-hombre-aerodinamica-65816",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1462,
+      "width": 700,
+      "height": 267,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/reloj-fossil-townsman-fs5279-cronografo-hombre-5511",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1729,
+      "width": 700,
+      "height": 120,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/navidad-para-el423948?campaignType=products",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1849,
+      "width": 700,
+      "height": 250,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/navidad",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2099,
+      "width": 700,
+      "height": 393,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2492,
+      "width": 700,
+      "height": 72,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/a4eb3",
+      "order": 8
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "template_discover_TEMPORALIDAD_recortes",
+  "brand": "discover",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2051
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 464,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 620,
+      "width": 700,
+      "height": 290,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/air-fryer-warenhaus-m712-15905",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 910,
+      "width": 700,
+      "height": 287,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/cartera-joey-victor-hugo-8640",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1197,
+      "width": 700,
+      "height": 282,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/reloj-diesel-dz1801-hombre-5677",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1479,
+      "width": 700,
+      "height": 303,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/playstation-5-edition-disc-sony-88",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1782,
+      "width": 700,
+      "height": 97,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/ofertas/mood-navideno106630?campaignType=products",
+      "order": 5
+    }
+  ]
+}

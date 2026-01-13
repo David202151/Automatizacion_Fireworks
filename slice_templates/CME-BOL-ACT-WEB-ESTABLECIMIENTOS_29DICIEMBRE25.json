@@ -1,0 +1,67 @@
+{
+  "name": "CME-BOL-ACT-WEB-ESTABLECIMIENTOS_29DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1300
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 165,
+      "width": 700,
+      "height": 517,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 682,
+      "width": 700,
+      "height": 300,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 982,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1097,
+      "width": 700,
+      "height": 72,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    }
+  ]
+}

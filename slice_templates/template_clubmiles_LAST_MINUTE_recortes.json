@@ -1,0 +1,89 @@
+{
+  "name": "template_clubmiles_LAST_MINUTE_recortes",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2367
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 158,
+      "width": 700,
+      "height": 900,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1058,
+      "width": 350,
+      "height": 398,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260309_GYE_LIM-20260316_LIM_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 1058,
+      "width": 350,
+      "height": 398,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260108_GYE_CTG-20260113_CTG_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1456,
+      "width": 700,
+      "height": 117,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1573,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": true,
+      "url": "https://onelink.to/appclubmiles1",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1773,
+      "width": 700,
+      "height": 375,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2148,
+      "width": 700,
+      "height": 73,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 6
+    }
+  ]
+}

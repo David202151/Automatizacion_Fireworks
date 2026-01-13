@@ -1,0 +1,89 @@
+{
+  "name": "template_bgr_activacion_7_recortes",
+  "brand": "bgr",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2736
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 120,
+      "width": 700,
+      "height": 617,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 737,
+      "width": 700,
+      "height": 1412,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 2149,
+      "width": 700,
+      "height": 124,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 2273,
+      "width": 700,
+      "height": 74,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2347,
+      "width": 700,
+      "height": 43,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2390,
+      "width": 700,
+      "height": 37,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2427,
+      "width": 700,
+      "height": 231,
+      "type": "image",
+      "has_url": true,
+      "url": "https://drive.google.com/file/d/1r4MiqhpTLWVxm-tcjA3_ieFp8tI-od9M/view?usp=sharing",
+      "order": 6
+    }
+  ]
+}

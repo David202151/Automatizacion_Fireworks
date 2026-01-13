@@ -1,0 +1,111 @@
+{
+  "name": "CME-BOL-RED-WEB-MAS_CANJEADO_26DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2899
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 163,
+      "width": 700,
+      "height": 628,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 791,
+      "width": 700,
+      "height": 276,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/smartwatch-rohs-ip67-62899",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1067,
+      "width": 700,
+      "height": 265,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/air-fryer-digital-oster-ckstaf40d-9783",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1332,
+      "width": 700,
+      "height": 269,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/212-vip-rose-edp-carolina-herrera-mujer-bp-68979",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1601,
+      "width": 700,
+      "height": 272,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/televisor-riviera-32-el-jaguar-qled-69240",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1873,
+      "width": 700,
+      "height": 114,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1987,
+      "width": 700,
+      "height": 301,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2288,
+      "width": 700,
+      "height": 392,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2680,
+      "width": 700,
+      "height": 75,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

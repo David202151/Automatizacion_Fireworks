@@ -1,0 +1,111 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_RECOMENDADOS_29DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2542
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 635,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 791,
+      "width": 350,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/termo-stanley-slim-bottle-34-oz-balck-64319",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 791,
+      "width": 350,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/set-para-ejercitarse-four-sport-16272",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1186,
+      "width": 350,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/plancha-de-cabello-babyliss-babnt3074t-68894",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1186,
+      "width": 350,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/air-fryer-black-decker-bd-56075",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1581,
+      "width": 700,
+      "height": 106,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1687,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1938,
+      "width": 700,
+      "height": 398,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2336,
+      "width": 700,
+      "height": 75,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

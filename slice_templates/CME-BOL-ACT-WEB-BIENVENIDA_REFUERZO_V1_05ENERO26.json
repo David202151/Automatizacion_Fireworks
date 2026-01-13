@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-ACT-WEB-BIENVENIDA_REFUERZO_V1_05ENERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2318
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 415,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 571,
+      "width": 700,
+      "height": 270,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 841,
+      "width": 700,
+      "height": 872,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1713,
+      "width": 700,
+      "height": 123,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1836,
+      "width": 700,
+      "height": 120,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1956,
+      "width": 700,
+      "height": 202,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2158,
+      "width": 700,
+      "height": 25,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

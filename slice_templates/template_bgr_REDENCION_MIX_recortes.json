@@ -1,0 +1,111 @@
+{
+  "name": "template_bgr_REDENCION_MIX_recortes",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2270
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 117,
+      "width": 700,
+      "height": 607,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 724,
+      "width": 350,
+      "height": 540,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/plancha-de-cabello-electric-life-hogbc2410-32752",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 724,
+      "width": 350,
+      "height": 540,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/green-wood-edt-dsquared2-hombre-264",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1264,
+      "width": 350,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260417_UIO_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1264,
+      "width": 350,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260305_UIO_CUE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1734,
+      "width": 700,
+      "height": 93,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1827,
+      "width": 700,
+      "height": 82,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1909,
+      "width": 700,
+      "height": 37,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1946,
+      "width": 700,
+      "height": 246,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

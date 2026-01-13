@@ -1,0 +1,67 @@
+{
+  "name": "CME-BOL-ACT-WEB-EDU_VUELOS_COPAGO_05ENERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2598
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 835,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 991,
+      "width": 700,
+      "height": 910,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1901,
+      "width": 700,
+      "height": 126,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 2027,
+      "width": 700,
+      "height": 370,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2397,
+      "width": 700,
+      "height": 70,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    }
+  ]
+}

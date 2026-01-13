@@ -44,15 +44,20 @@ class ManualWebSlicer:
         self.preheader_text = tk.StringVar(value="")
         self.upload_to_r2 = tk.BooleanVar(value=True)
         
+        # Variables para templates de recortes
+        self.templates_folder = "slice_templates"
+        os.makedirs(self.templates_folder, exist_ok=True)
+
+
         # NUEVA VARIABLE: Versión de template para ClubMiles
         self.template_version = tk.StringVar(value="v1")  # v1 = normal, v2 = plomo
         
         # Configuración de Cloudflare R2
         self.r2_config = {
-            "access_key_id": "fcf42625ad735ad63da22100af72e684",
-            "secret_access_key": "b304706b40e5544fbc4a50c543e2ba66f5f41595c69afa1b56097dc2fce5db2a",
-            "endpoint": "https://95f977894b55126e9809447b9bd1fa20.r2.cloudflarestorage.com",
-            "bucket_name": "icare"
+            "access_key_id": "access_key_id",
+            "secret_access_key": "secret_access_key",
+            "endpoint": "endpoint",
+            "bucket_name": "bucket_name"
         }
         
         # URLs base para cada marca y tipo
@@ -168,6 +173,16 @@ class ManualWebSlicer:
         ttk.Button(controls_row, text="📁 Cargar Imagen", 
                   command=self.load_image).pack(side=tk.LEFT, padx=5)
         
+        # Después del botón "🖼 Cargar Imagen"
+        ttk.Button(controls_row, text="💾 Guardar Recortes", 
+                command=self.save_slices_template).pack(side=tk.LEFT, padx=5)
+
+        ttk.Button(controls_row, text="📂 Cargar Recortes", 
+                command=self.load_slices_template).pack(side=tk.LEFT, padx=5)
+
+        ttk.Button(controls_row, text="📋 Gestionar Templates", 
+                command=self.manage_templates).pack(side=tk.LEFT, padx=5)
+        
         # Separador visual
         ttk.Separator(controls_row, orient=tk.VERTICAL).pack(side=tk.LEFT, padx=10, fill=tk.Y)
         
@@ -264,6 +279,25 @@ class ManualWebSlicer:
         self.r2_status_label = ttk.Label(config_frame, text="", foreground="green")
         self.r2_status_label.grid(row=2, column=3, columnspan=7, sticky=tk.W, padx=5, pady=(5,0))
         
+        # ✅ AGREGAR AQUÍ EL BOTÓN EXPORTAR
+        # Cuarta fila: Botón de exportar
+        export_button = tk.Button(config_frame, 
+                                text="🚀 EXPORTAR HTML", 
+                                command=self.process_slices,
+                                bg="#FF6B35",
+                                fg="white",
+                                font=("Arial", 11, "bold"),
+                                padx=30,
+                                pady=10,
+                                cursor="hand2",
+                                relief=tk.RAISED,
+                                borderwidth=2)
+        export_button.grid(row=3, column=0, columnspan=10, pady=(15, 5), sticky=tk.E, padx=10)
+
+        # Frame para Preheader (solo visible cuando es Mautic)
+        self.preheader_frame = ttk.LabelFrame(top_frame, text="Preheader (Mautic)", padding="5")
+
+
         # Frame para Preheader (solo visible cuando es Mautic)
         self.preheader_frame = ttk.LabelFrame(top_frame, text="Preheader (Mautic)", padding="5")
         self.preheader_frame.pack(fill=tk.X, pady=(5, 0))
@@ -442,17 +476,21 @@ class ManualWebSlicer:
         self.preview_canvas = tk.Canvas(preview_panel, width=280, height=150, bg="white")
         self.preview_canvas.pack()
         
+        # Frame para botón de exportar (nueva fila)
+        export_frame = ttk.Frame(top_frame)
+        export_frame.pack(fill=tk.X, pady=(10, 0))
+
         # Botón de exportar
-        export_button = tk.Button(controls_row, 
-                                text="🚀 EXPORTAR HTML", 
-                                command=self.process_slices,
-                                bg="#FF6B35",
-                                fg="white",
-                                font=("Arial", 10, "bold"),
-                                padx=20,
-                                pady=8,
-                                cursor="hand2")
-        export_button.pack(side=tk.RIGHT, padx=(20, 10))
+        # export_button = tk.Button(export_frame, 
+        #                        text="🚀 EXPORTAR HTML", 
+        #                        command=self.process_slices,
+        #                        bg="#FF6B35",
+        #                        fg="white",
+        #                        font=("Arial", 11, "bold"),
+        #                        padx=30,
+        #                        pady=10,
+        #                        cursor="hand2")
+        # export_button.pack(side=tk.RIGHT, padx=10)
         
         # Inicializar FPS counter
         self.fps_counter = 0
@@ -2126,7 +2164,7 @@ div {
 </table></td>
 </tr>
 <tr>
-<td><img style="display:block" src="{get_image_url('cierre.jpg')}" width="700" height="33" alt="" /></td>
+<td><img style="display:block" src="{get_image_url('cierre.jpg')}" width="700" height="36" alt="" /></td>
 </tr>
 </table>
  </center>
@@ -2395,25 +2433,27 @@ div {
                 
                 html += '</tr>\n</table>\n</td>\n</tr>\n'
         
-        # Footer Discover
+        # Footer Discover - CORREGIDO
         html += f'''<tr>
     <td><img style="display:block" src="{get_image_url('index_r10_c1.jpg')}" width="700" height="50" alt="" /></td>
     </tr>
     <tr>
-             <td><table style="display: inline-table;" align="left" border="0" cellpadding="0" cellspacing="0" width="700">
-              <tr>
-               <td><img style="display:block" name="index_r11_c1" src="{get_image_url('index_r11_c1.jpg')}" width="453" height="67" id="index_r11_c1" alt="" /></td>
-               <td><a href="https://twitter.com/discoverecu?s=21&t=RhDLOB1Gi5VRakyuwoiC8g" target="_blank"><img style="display:block" name="index_r11_c3" src="{get_image_url('index_r11_c3.jpg')}" width="57" height="67" id="index_r11_c3" alt="X Discover" /></a></td>
-               <td><a href="https://www.facebook.com/DiscoverEC?mibextid=LQQJ4d" target="_blank"><img style="display:block" name="index_r11_c4" src="{get_image_url('index_r11_c4.jpg')}" width="59" height="67" id="index_r11_c4" alt="Facebook Discover" /></a></td>
-               <td><a href="https://www.instagram.com/discover_ec?igsh=MWdjc3g1NmVuaTA2Nw==" target="_blank"><img style="display:block" name="index_r11_c6" src="{get_image_url('index_r11_c6.jpg')}" width="56" height="67" id="index_r11_c6" alt="Instagram Discover" /></a></td>
-               <td><a href="https://www.youtube.com/@DiscoverEcuador" target="_blank"><img style="display:block" name="index_r11_c7" src="{get_image_url('index_r11_c7.jpg')}" width="75" height="67" id="index_r11_c7" alt="Youtube Discover" /></a></td>
-              </tr>
-            </table></td>
-            </tr>
-            <tr>
-             <td><img style="display:block" name="index_r12_c1" src="{get_image_url('index_r12_c1.jpg')}" width="700" height="78" id="index_r12_c1" alt="" /></td>
-            </tr>
-          </table>
+    <td>
+    <table border="0" cellpadding="0" cellspacing="0" width="700">
+    <tr>
+    <td><img style="display:block" name="index_r11_c1" src="{get_image_url('index_r11_c1.jpg')}" width="453" height="67" id="index_r11_c1" alt="" /></td>
+    <td><a href="https://twitter.com/discoverecu?s=21&t=RhDLOB1Gi5VRakyuwoiC8g" target="_blank"><img style="display:block" name="index_r11_c3" src="{get_image_url('index_r11_c3.jpg')}" width="57" height="67" id="index_r11_c3" alt="X Discover" /></a></td>
+    <td><a href="https://www.facebook.com/DiscoverEC?mibextid=LQQJ4d" target="_blank"><img style="display:block" name="index_r11_c4" src="{get_image_url('index_r11_c4.jpg')}" width="59" height="67" id="index_r11_c4" alt="Facebook Discover" /></a></td>
+    <td><a href="https://www.instagram.com/discover_ec?igsh=MWdjc3g1NmVuaTA2Nw==" target="_blank"><img style="display:block" name="index_r11_c6" src="{get_image_url('index_r11_c6.jpg')}" width="56" height="67" id="index_r11_c6" alt="Instagram Discover" /></a></td>
+    <td><a href="https://www.youtube.com/@DiscoverEcuador" target="_blank"><img style="display:block" name="index_r11_c7" src="{get_image_url('index_r11_c7.jpg')}" width="75" height="67" id="index_r11_c7" alt="Youtube Discover" /></a></td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    <tr>
+    <td><img style="display:block" name="index_r12_c1" src="{get_image_url('index_r12_c1.jpg')}" width="700" height="78" id="index_r12_c1" alt="" /></td>
+    </tr>
+    </table>
     </center>
     </td>
     </tr>
@@ -2429,7 +2469,430 @@ div {
             html += "{unsubscribe_text}"
         
         return html
-
+    def save_slices_template(self):
+        """Guarda los recortes actuales como template"""
+        if not self.slices:
+            messagebox.showwarning("Sin recortes", "No hay recortes para guardar")
+            return
+        
+        # Pedir nombre del template
+        template_name = simpledialog.askstring(
+            "Guardar Template de Recortes",
+            "Ingrese un nombre para este template de recortes:",
+            initialvalue=f"template_{self.brand.get()}_{len(self.slices)}_recortes"
+        )
+        
+        if not template_name:
+            return
+        
+        # Limpiar nombre (sin caracteres especiales)
+        template_name = "".join(c for c in template_name if c.isalnum() or c in (' ', '_', '-')).strip()
+        
+        if not template_name:
+            messagebox.showerror("Error", "Nombre inválido")
+            return
+        
+        try:
+            # Preparar datos para guardar
+            template_data = {
+                "name": template_name,
+                "brand": self.brand.get(),
+                "campaign_type": self.campaign_type.get(),
+                "template_version": self.template_version.get() if self.brand.get() == "clubmiles" else "v1",
+                "image_dimensions": {
+                    "width": self.mockup_image.width if self.mockup_image else 700,
+                    "height": self.mockup_image.height if self.mockup_image else 0
+                },
+                "slices": []
+            }
+            
+            # Copiar información de cada recorte (sin las variables de Tkinter)
+            for slice_data in self.slices:
+                slice_copy = {
+                    "name": slice_data["name"],
+                    "x": slice_data["x"],
+                    "y": slice_data["y"],
+                    "width": slice_data["width"],
+                    "height": slice_data["height"],
+                    "type": slice_data.get("type", "image"),
+                    "has_url": slice_data.get("has_url", False),
+                    "url": slice_data.get("url", ""),
+                    "order": slice_data.get("order", 0)
+                }
+                template_data["slices"].append(slice_copy)
+            
+            # Guardar como JSON
+            filename = f"{template_name}.json"
+            filepath = os.path.join(self.templates_folder, filename)
+            
+            # Verificar si ya existe
+            if os.path.exists(filepath):
+                if not messagebox.askyesno("Template existente", 
+                                          f"Ya existe un template con el nombre '{template_name}'.\n¿Deseas sobrescribirlo?"):
+                    return
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(template_data, f, indent=2, ensure_ascii=False)
+            
+            messagebox.showinfo("✅ Template Guardado", 
+                              f"Template guardado exitosamente:\n\n"
+                              f"📝 Nombre: {template_name}\n"
+                              f"✂️ Recortes: {len(self.slices)}\n"
+                              f"🏢 Marca: {self.brand.get().upper()}\n"
+                              f"📁 Ubicación: {filepath}")
+            
+        except Exception as e:
+            messagebox.showerror("Error", f"No se pudo guardar el template:\n{str(e)}")
+    
+    def load_slices_template(self):
+        """Carga recortes desde un template guardado"""
+        if not self.mockup_image:
+            messagebox.showwarning("Sin imagen", "Primero debes cargar una imagen")
+            return
+        
+        # Verificar si hay recortes existentes
+        if self.slices:
+            response = messagebox.askyesnocancel(
+                "Recortes existentes",
+                f"Ya tienes {len(self.slices)} recorte(s) en el boletín actual.\n\n"
+                "¿Qué deseas hacer?\n\n"
+                "• SÍ = Agregar los nuevos recortes a los existentes\n"
+                "• NO = Reemplazar todos los recortes actuales\n"
+                "• CANCELAR = No cargar nada"
+            )
+            
+            if response is None:  # Cancelar
+                return
+            elif response is False:  # NO = Reemplazar
+                self.slices = []
+        
+        # Buscar templates disponibles
+        template_files = [f for f in os.listdir(self.templates_folder) if f.endswith('.json')]
+        
+        if not template_files:
+            messagebox.showinfo("Sin templates", "No hay templates guardados")
+            return
+        
+        # Crear ventana de selección
+        select_window = tk.Toplevel(self.root)
+        select_window.title("📂 Seleccionar Template de Recortes")
+        select_window.geometry("700x500")
+        select_window.transient(self.root)
+        select_window.grab_set()
+        
+        # Header
+        header_frame = tk.Frame(select_window, bg="#4CAF50", height=60)
+        header_frame.pack(fill=tk.X)
+        header_frame.pack_propagate(False)
+        
+        tk.Label(header_frame, text="📂 SELECCIONAR TEMPLATE DE RECORTES", 
+                font=("Arial", 14, "bold"), bg="#4CAF50", fg="white").pack(pady=20)
+        
+        # Lista de templates
+        list_frame = ttk.Frame(select_window, padding="20")
+        list_frame.pack(fill=tk.BOTH, expand=True)
+        
+        ttk.Label(list_frame, text="Templates disponibles:", 
+                 font=("Arial", 11, "bold")).pack(anchor=tk.W, pady=(0, 10))
+        
+        # Treeview
+        columns = ("Nombre", "Marca", "Recortes", "Dimensiones")
+        tree = ttk.Treeview(list_frame, columns=columns, show="headings", height=15)
+        
+        tree.heading("Nombre", text="Nombre del Template")
+        tree.heading("Marca", text="Marca")
+        tree.heading("Recortes", text="# Recortes")
+        tree.heading("Dimensiones", text="Dimensiones")
+        
+        tree.column("Nombre", width=250)
+        tree.column("Marca", width=100)
+        tree.column("Recortes", width=100)
+        tree.column("Dimensiones", width=150)
+        
+        scrollbar = ttk.Scrollbar(list_frame, orient=tk.VERTICAL, command=tree.yview)
+        tree.configure(yscrollcommand=scrollbar.set)
+        
+        tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        
+        # Cargar templates en el tree
+        template_data_map = {}
+        for filename in template_files:
+            try:
+                filepath = os.path.join(self.templates_folder, filename)
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                template_id = tree.insert("", "end", values=(
+                    data.get("name", filename),
+                    data.get("brand", "N/A").upper(),
+                    len(data.get("slices", [])),
+                    f"{data.get('image_dimensions', {}).get('width', '?')}×{data.get('image_dimensions', {}).get('height', '?')}"
+                ))
+                template_data_map[template_id] = filepath
+            except Exception as e:
+                print(f"Error cargando {filename}: {e}")
+        
+        # Info frame
+        info_frame = ttk.Frame(select_window, padding="20")
+        info_frame.pack(fill=tk.X)
+        
+        info_label = ttk.Label(info_frame, text="", foreground="blue", font=("Arial", 9))
+        info_label.pack()
+        
+        def on_select(event):
+            selection = tree.selection()
+            if selection:
+                try:
+                    filepath = template_data_map[selection[0]]
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    
+                    current_size = f"{self.mockup_image.width}×{self.mockup_image.height}"
+                    template_size = f"{data.get('image_dimensions', {}).get('width', '?')}×{data.get('image_dimensions', {}).get('height', '?')}"
+                    
+                    if current_size != template_size:
+                        info_label.config(
+                            text=f"⚠️ Advertencia: Dimensiones diferentes. Actual: {current_size} | Template: {template_size}",
+                            foreground="orange"
+                        )
+                    else:
+                        info_label.config(
+                            text=f"✅ Dimensiones coinciden: {current_size}",
+                            foreground="green"
+                        )
+                except:
+                    pass
+        
+        tree.bind('<<TreeviewSelect>>', on_select)
+        
+        # Botones
+        button_frame = ttk.Frame(select_window, padding="20")
+        button_frame.pack(fill=tk.X)
+        
+        def load_selected():
+            selection = tree.selection()
+            if not selection:
+                messagebox.showwarning("Sin selección", "Selecciona un template")
+                return
+            
+            try:
+                filepath = template_data_map[selection[0]]
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Verificar dimensiones
+                template_width = data.get('image_dimensions', {}).get('width', 700)
+                template_height = data.get('image_dimensions', {}).get('height', 0)
+                
+                if self.mockup_image.width != template_width:
+                    response = messagebox.askyesno(
+                        "Dimensiones diferentes",
+                        f"El template fue creado para imágenes de {template_width}×{template_height}px\n"
+                        f"Tu imagen actual es {self.mockup_image.width}×{self.mockup_image.height}px\n\n"
+                        f"Los recortes podrían no alinearse correctamente.\n"
+                        f"¿Deseas continuar de todos modos?"
+                    )
+                    if not response:
+                        return
+                
+                # Cargar recortes
+                loaded_count = 0
+                for slice_template in data.get("slices", []):
+                    # Verificar que el recorte esté dentro de los límites
+                    x = slice_template["x"]
+                    y = slice_template["y"]
+                    width = slice_template["width"]
+                    height = slice_template["height"]
+                    
+                    # Ajustar si es necesario
+                    if x + width > self.mockup_image.width:
+                        width = self.mockup_image.width - x
+                    if y + height > self.mockup_image.height:
+                        height = self.mockup_image.height - y
+                    
+                    if width > 0 and height > 0:
+                        new_slice = {
+                            "name": slice_template.get("name", f"slice_{len(self.slices) + 1}"),
+                            "x": x,
+                            "y": y,
+                            "width": width,
+                            "height": height,
+                            "type": slice_template.get("type", "image"),
+                            "has_url": slice_template.get("has_url", False),
+                            "url": slice_template.get("url", ""),
+                            "order": len(self.slices)
+                        }
+                        self.slices.append(new_slice)
+                        loaded_count += 1
+                
+                # Actualizar interfaz
+                self.update_slice_tree()
+                self.display_image()
+                
+                select_window.destroy()
+                
+                messagebox.showinfo("✅ Template Cargado", 
+                                  f"Se cargaron {loaded_count} recortes exitosamente\n\n"
+                                  f"Template: {data.get('name', 'Sin nombre')}\n"
+                                  f"Total de recortes ahora: {len(self.slices)}")
+                
+            except Exception as e:
+                messagebox.showerror("Error", f"No se pudo cargar el template:\n{str(e)}")
+        
+        ttk.Button(button_frame, text="✅ Cargar Seleccionado", 
+                  command=load_selected).pack(side=tk.RIGHT, padx=5)
+        ttk.Button(button_frame, text="❌ Cancelar", 
+                  command=select_window.destroy).pack(side=tk.RIGHT, padx=5)
+        
+        # Doble click para cargar
+        tree.bind('<Double-1>', lambda e: load_selected())
+    
+    def manage_templates(self):
+        """Ventana para gestionar templates guardados"""
+        template_files = [f for f in os.listdir(self.templates_folder) if f.endswith('.json')]
+        
+        if not template_files:
+            messagebox.showinfo("Sin templates", "No hay templates guardados para gestionar")
+            return
+        
+        # Crear ventana
+        manage_window = tk.Toplevel(self.root)
+        manage_window.title("📋 Gestionar Templates")
+        manage_window.geometry("800x600")
+        manage_window.transient(self.root)
+        manage_window.grab_set()
+        
+        # Header
+        header_frame = tk.Frame(manage_window, bg="#FF6B35", height=60)
+        header_frame.pack(fill=tk.X)
+        header_frame.pack_propagate(False)
+        
+        tk.Label(header_frame, text="📋 GESTIÓN DE TEMPLATES", 
+                font=("Arial", 14, "bold"), bg="#FF6B35", fg="white").pack(pady=20)
+        
+        # Lista de templates
+        list_frame = ttk.Frame(manage_window, padding="20")
+        list_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # Treeview
+        columns = ("Nombre", "Marca", "Recortes", "Dimensiones", "Fecha")
+        tree = ttk.Treeview(list_frame, columns=columns, show="headings", height=20)
+        
+        tree.heading("Nombre", text="Nombre del Template")
+        tree.heading("Marca", text="Marca")
+        tree.heading("Recortes", text="# Recortes")
+        tree.heading("Dimensiones", text="Dimensiones")
+        tree.heading("Fecha", text="Última Modificación")
+        
+        tree.column("Nombre", width=200)
+        tree.column("Marca", width=100)
+        tree.column("Recortes", width=100)
+        tree.column("Dimensiones", width=120)
+        tree.column("Fecha", width=150)
+        
+        scrollbar = ttk.Scrollbar(list_frame, orient=tk.VERTICAL, command=tree.yview)
+        tree.configure(yscrollcommand=scrollbar.set)
+        
+        tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        
+        # Cargar templates
+        template_data_map = {}
+        for filename in template_files:
+            try:
+                filepath = os.path.join(self.templates_folder, filename)
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                # Obtener fecha de modificación
+                mod_time = os.path.getmtime(filepath)
+                from datetime import datetime
+                mod_date = datetime.fromtimestamp(mod_time).strftime("%Y-%m-%d %H:%M")
+                
+                template_id = tree.insert("", "end", values=(
+                    data.get("name", filename),
+                    data.get("brand", "N/A").upper(),
+                    len(data.get("slices", [])),
+                    f"{data.get('image_dimensions', {}).get('width', '?')}×{data.get('image_dimensions', {}).get('height', '?')}",
+                    mod_date
+                ))
+                template_data_map[template_id] = filepath
+            except Exception as e:
+                print(f"Error cargando {filename}: {e}")
+        
+        # Botones
+        button_frame = ttk.Frame(manage_window, padding="20")
+        button_frame.pack(fill=tk.X)
+        
+        def delete_selected():
+            selection = tree.selection()
+            if not selection:
+                messagebox.showwarning("Sin selección", "Selecciona un template para eliminar")
+                return
+            
+            if messagebox.askyesno("Confirmar eliminación", 
+                                  "¿Estás seguro de que deseas eliminar este template?\n\nEsta acción no se puede deshacer."):
+                try:
+                    filepath = template_data_map[selection[0]]
+                    os.remove(filepath)
+                    tree.delete(selection[0])
+                    messagebox.showinfo("✅ Eliminado", "Template eliminado exitosamente")
+                except Exception as e:
+                    messagebox.showerror("Error", f"No se pudo eliminar:\n{str(e)}")
+        
+        def rename_selected():
+            selection = tree.selection()
+            if not selection:
+                messagebox.showwarning("Sin selección", "Selecciona un template para renombrar")
+                return
+            
+            try:
+                filepath = template_data_map[selection[0]]
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                old_name = data.get("name", "")
+                new_name = simpledialog.askstring("Renombrar Template", 
+                                                 "Ingrese el nuevo nombre:", 
+                                                 initialvalue=old_name)
+                
+                if new_name and new_name != old_name:
+                    # Limpiar nombre
+                    new_name = "".join(c for c in new_name if c.isalnum() or c in (' ', '_', '-')).strip()
+                    
+                    # Actualizar datos
+                    data["name"] = new_name
+                    
+                    # Guardar
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, indent=2, ensure_ascii=False)
+                    
+                    # Actualizar tree
+                    tree.item(selection[0], values=(
+                        new_name,
+                        tree.item(selection[0])['values'][1],
+                        tree.item(selection[0])['values'][2],
+                        tree.item(selection[0])['values'][3],
+                        tree.item(selection[0])['values'][4]
+                    ))
+                    
+                    messagebox.showinfo("✅ Renombrado", "Template renombrado exitosamente")
+            except Exception as e:
+                messagebox.showerror("Error", f"No se pudo renombrar:\n{str(e)}")
+        
+        ttk.Button(button_frame, text="🗑️ Eliminar", 
+                  command=delete_selected).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="✏️ Renombrar", 
+                  command=rename_selected).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="❌ Cerrar", 
+                  command=manage_window.destroy).pack(side=tk.RIGHT, padx=5)
+        
+        # Info
+        info_label = ttk.Label(button_frame, 
+                              text=f"Total de templates: {len(template_files)}", 
+                              font=("Arial", 9), foreground="gray")
+        info_label.pack(side=tk.LEFT, padx=20)
 
 class ConfigWindow:
     """Ventana de configuración optimizada"""

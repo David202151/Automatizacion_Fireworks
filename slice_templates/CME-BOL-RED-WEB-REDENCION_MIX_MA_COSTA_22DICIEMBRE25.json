@@ -1,0 +1,122 @@
+{
+  "name": "CME-BOL-RED-WEB-REDENCION_MIX_MA_COSTA_22DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 3032
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 160,
+      "width": 700,
+      "height": 738,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 898,
+      "width": 700,
+      "height": 299,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/reloj-fossil-raquel-mujer-5056",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1197,
+      "width": 700,
+      "height": 294,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-new-balance-u990-ajuste-perfecto-hombre-60189",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1491,
+      "width": 700,
+      "height": 304,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20251229_GYE_SMR-20251231_SMR_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1795,
+      "width": 700,
+      "height": 267,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260115_GYE_BUE-20260117_BUE_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2062,
+      "width": 700,
+      "height": 111,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2173,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2424,
+      "width": 700,
+      "height": 381,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2805,
+      "width": 700,
+      "height": 96,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/7687f",
+      "order": 9
+    }
+  ]
+}

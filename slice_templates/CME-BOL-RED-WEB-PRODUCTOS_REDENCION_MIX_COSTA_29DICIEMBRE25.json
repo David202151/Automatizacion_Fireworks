@@ -1,0 +1,111 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_REDENCION_MIX_COSTA_29DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2630
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 154,
+      "width": 700,
+      "height": 220,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 374,
+      "width": 700,
+      "height": 345,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-mujer-running-new-balance-fresh-foam-x-1080-v14-55575",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 719,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/bicicleta-aventura-totem-21616",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1054,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260106_GYE_LIM-20260110_LIM_GYE/all/any/all-stops/international/1_adult/0_child/0_infant​",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1389,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260116_GYE_PUJ-20260118_PUJ_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1724,
+      "width": 700,
+      "height": 112,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1836,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2036,
+      "width": 700,
+      "height": 390,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2426,
+      "width": 700,
+      "height": 75,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "name": "CME-BOL-ACU-WEB-RESTAURANTES_26DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1912
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 95,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 189,
+      "width": 700,
+      "height": 790,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 979,
+      "width": 700,
+      "height": 84,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1063,
+      "width": 350,
+      "height": 275,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/gana-mas-millas?category=f132a8f5-80ef-4eb1-a9cb-e68256ce810c",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1063,
+      "width": 350,
+      "height": 275,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/gana-mas-millas?category=f132a8f5-80ef-4eb1-a9cb-e68256ce810c&merchant=344917af-05d6-4d84-ae4f-8401cef50018",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1338,
+      "width": 350,
+      "height": 325,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/gana-mas-millas?category=f132a8f5-80ef-4eb1-a9cb-e68256ce810c&merchant=193442f8-ec01-44ef-b69b-ccc85f9ba280",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 350,
+      "y": 1338,
+      "width": 350,
+      "height": 325,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/gana-mas-millas?category=f132a8f5-80ef-4eb1-a9cb-e68256ce810c&merchant=368e9459-1fd9-40c8-947a-1e1e32135153",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1663,
+      "width": 700,
+      "height": 97,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1760,
+      "width": 507,
+      "height": 51,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 507,
+      "y": 1760,
+      "width": 46,
+      "height": 51,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.facebook.com/ClubMiles/",
+      "order": 9
+    },
+    {
+      "name": "slice_11",
+      "x": 553,
+      "y": 1760,
+      "width": 41,
+      "height": 51,
+      "type": "image",
+      "has_url": true,
+      "url": "https://instagram.com/clubmiles_ec?igshid=YmMyMTA2M2Y=",
+      "order": 10
+    },
+    {
+      "name": "slice_12",
+      "x": 594,
+      "y": 1760,
+      "width": 43,
+      "height": 51,
+      "type": "image",
+      "has_url": true,
+      "url": "https://wa.me/593963040040",
+      "order": 11
+    },
+    {
+      "name": "slice_13",
+      "x": 637,
+      "y": 1760,
+      "width": 63,
+      "height": 51,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.youtube.com/channel/UCJ5qTUrByNb6u9XiQ39xmHA",
+      "order": 12
+    }
+  ]
+}

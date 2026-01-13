@@ -1,0 +1,122 @@
+{
+  "name": "template_clubmiles_COPAGO_GENERO_recortes",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2810
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 155,
+      "width": 700,
+      "height": 89,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 244,
+      "width": 700,
+      "height": 501,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 745,
+      "width": 700,
+      "height": 151,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 896,
+      "width": 700,
+      "height": 325,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/air-fryer-dual-oster-ckstaf7mcddf-013-65772",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1221,
+      "width": 700,
+      "height": 324,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/televisor-jvc-43-google-tv-1536-38259",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1545,
+      "width": 700,
+      "height": 321,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/cafetera-espresso-cuisinart-em-100np1-9739",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1866,
+      "width": 700,
+      "height": 113,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1979,
+      "width": 700,
+      "height": 250,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2229,
+      "width": 700,
+      "height": 384,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2613,
+      "width": 700,
+      "height": 69,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    }
+  ]
+}

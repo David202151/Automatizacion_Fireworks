@@ -1,0 +1,111 @@
+{
+  "name": "template_bgr_VIAJES_COSTA_recortes",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2208
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 115,
+      "width": 700,
+      "height": 611,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 726,
+      "width": 350,
+      "height": 486,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/round/20260319_GYE_CUZ-20260322_CUZ_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 726,
+      "width": 350,
+      "height": 486,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/round/20260319_GYE_EWR-20260322_EWR_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1212,
+      "width": 350,
+      "height": 487,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/round/20260319_GYE_MCO-20260322_MCO_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1212,
+      "width": 350,
+      "height": 487,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/round/20260319_GYE_PUJ-20260322_PUJ_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1699,
+      "width": 700,
+      "height": 96,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/viajes/vuelos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1795,
+      "width": 700,
+      "height": 87,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1882,
+      "width": 700,
+      "height": 33,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1915,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

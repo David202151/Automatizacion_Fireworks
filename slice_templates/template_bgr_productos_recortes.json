@@ -1,0 +1,122 @@
+{
+  "name": "template_bgr_productos_recortes",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2359
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 121,
+      "width": 700,
+      "height": 607,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 728,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 843,
+      "width": 350,
+      "height": 500,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/horno-air-fryer-hamilton-beach-qr3570-14774",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 350,
+      "y": 843,
+      "width": 350,
+      "height": 500,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/polo-red-edp-ralph-lauren-hombre-8102",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1343,
+      "width": 350,
+      "height": 530,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/combo-televisor-32-sanduchera-6478",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 350,
+      "y": 1343,
+      "width": 350,
+      "height": 530,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/playstation-5-edition-disc-sony-88",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1873,
+      "width": 700,
+      "height": 106,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mas-beneficios/ofertas/navidad-que-brilla-en-familia126079",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1979,
+      "width": 700,
+      "height": 48,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2027,
+      "width": 700,
+      "height": 41,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2068,
+      "width": 700,
+      "height": 244,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    }
+  ]
+}

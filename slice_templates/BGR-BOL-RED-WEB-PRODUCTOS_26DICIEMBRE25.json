@@ -1,0 +1,111 @@
+{
+  "name": "BGR-BOL-RED-WEB-PRODUCTOS_26DICIEMBRE25",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2367
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 116,
+      "width": 700,
+      "height": 629,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 745,
+      "width": 350,
+      "height": 570,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/camara-de-vigilancia-de-interiores-hikvision-16207",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 745,
+      "width": 350,
+      "height": 570,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/cafetera-programable-black-decker-cm2046s-9521",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1315,
+      "width": 350,
+      "height": 570,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/celular-xiaomi-13c-redmi-24465",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1315,
+      "width": 350,
+      "height": 570,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/televisor-zitro-smart-tv-6485",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1885,
+      "width": 700,
+      "height": 100,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1985,
+      "width": 700,
+      "height": 53,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2038,
+      "width": 700,
+      "height": 34,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2072,
+      "width": 700,
+      "height": 217,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

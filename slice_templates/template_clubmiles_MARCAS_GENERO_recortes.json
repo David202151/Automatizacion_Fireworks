@@ -1,0 +1,111 @@
+{
+  "name": "template_clubmiles_MARCAS_GENERO_recortes",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2820
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 160,
+      "width": 700,
+      "height": 735,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 895,
+      "width": 700,
+      "height": 301,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/navidad?order=products-points-asc&brandIds=e2038942-a469-48b3-bae4-22470ce0513e​",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1196,
+      "width": 700,
+      "height": 297,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/navidad?order=products-points-asc&brandIds=47668983-4064-4e65-ae3a-ecce02da1433",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1493,
+      "width": 700,
+      "height": 301,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/navidad?brandIds=186d3b43-0177-40dc-80d3-09918013a1b9&order=products-points-asc",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1794,
+      "width": 700,
+      "height": 117,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/navidad-para-el423948?campaignType=products",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1911,
+      "width": 700,
+      "height": 300,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/navidad",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2211,
+      "width": 700,
+      "height": 387,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2598,
+      "width": 700,
+      "height": 93,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/a4eb3",
+      "order": 8
+    }
+  ]
+}

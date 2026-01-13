@@ -1,0 +1,111 @@
+{
+  "name": "BGR-BOL-RED-WEB-VIAJES_COSTA_MB_23DICIEMBRE25",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1996
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 115,
+      "width": 700,
+      "height": 566,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 681,
+      "width": 350,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260213_GYE_UIO/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 681,
+      "width": 350,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260213_GYE_CUE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1076,
+      "width": 350,
+      "height": 424,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260508_GYE_GPS/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1076,
+      "width": 350,
+      "height": 424,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260508_GYE_CLO/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1500,
+      "width": 700,
+      "height": 96,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/viajes/vuelos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1596,
+      "width": 700,
+      "height": 72,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1668,
+      "width": 700,
+      "height": 33,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1701,
+      "width": 700,
+      "height": 217,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "CME-BOL-RED-WEB-VIAJES_COSTA_23DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2694
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 161,
+      "width": 700,
+      "height": 745,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 906,
+      "width": 700,
+      "height": 277,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260101_GYE_CUE-20260104_CUE_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1183,
+      "width": 700,
+      "height": 279,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260101_GYE_UIO-20260104_UIO_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1462,
+      "width": 700,
+      "height": 267,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260115_GYE_SCY-20260118_SCY_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1729,
+      "width": 700,
+      "height": 121,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1851,
+      "width": 700,
+      "height": 249,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2100,
+      "width": 700,
+      "height": 394,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2494,
+      "width": 700,
+      "height": 72,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

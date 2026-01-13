@@ -1,0 +1,67 @@
+{
+  "name": "CME-BOL-RED-WEB-VUELO_MENDOZA_COSTA_30DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2595
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 762,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 918,
+      "width": 700,
+      "height": 1095,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 2013,
+      "width": 700,
+      "height": 112,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260108_GYE_MDZ-20260115_MDZ_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 2125,
+      "width": 700,
+      "height": 250,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos​",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2375,
+      "width": 700,
+      "height": 91,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 4
+    }
+  ]
+}

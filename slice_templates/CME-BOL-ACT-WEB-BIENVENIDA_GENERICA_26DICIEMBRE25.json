@@ -1,0 +1,67 @@
+{
+  "name": "CME-BOL-ACT-WEB-BIENVENIDA_GENERICA_26DICIEMBRE25",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1643
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 153,
+      "width": 700,
+      "height": 524,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 677,
+      "width": 700,
+      "height": 450,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1127,
+      "width": 700,
+      "height": 100,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1227,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1427,
+      "width": 700,
+      "height": 83,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    }
+  ]
+}
