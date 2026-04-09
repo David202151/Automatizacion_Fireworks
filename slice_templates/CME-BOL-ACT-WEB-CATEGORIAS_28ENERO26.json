@@ -1,0 +1,122 @@
+{
+  "name": "CME-BOL-ACT-WEB-CATEGORIAS_28ENERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2638
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 160,
+      "width": 700,
+      "height": 489,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 649,
+      "width": 700,
+      "height": 110,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 759,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=TECNOLOGIA",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1069,
+      "width": 700,
+      "height": 300,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=COCINA",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1369,
+      "width": 700,
+      "height": 300,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=GIF",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1669,
+      "width": 700,
+      "height": 94,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1763,
+      "width": 700,
+      "height": 250,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2013,
+      "width": 700,
+      "height": 410,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2423,
+      "width": 700,
+      "height": 75,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    }
+  ]
+}

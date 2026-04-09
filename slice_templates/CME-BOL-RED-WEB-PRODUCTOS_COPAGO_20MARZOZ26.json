@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_COPAGO_20MARZOZ26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2392
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 155,
+      "width": 700,
+      "height": 620,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 775,
+      "width": 700,
+      "height": 342,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/cafetera-12-tazas-black-decker-cm0021-75545​",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1117,
+      "width": 700,
+      "height": 355,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/audifonos-bluetooth-xiaomi-redmi-buds-6-61426",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1472,
+      "width": 700,
+      "height": 304,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/cepillo-secador-de-aire-babyliss-pro-bnthb250sr-67758",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1776,
+      "width": 700,
+      "height": 120,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1896,
+      "width": 700,
+      "height": 253,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2149,
+      "width": 700,
+      "height": 96,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

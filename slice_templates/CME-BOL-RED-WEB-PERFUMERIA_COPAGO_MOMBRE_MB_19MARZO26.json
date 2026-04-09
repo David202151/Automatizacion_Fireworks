@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-PERFUMERIA_COPAGO_MOMBRE_MB_19MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2464
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 155,
+      "width": 700,
+      "height": 500,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 655,
+      "width": 700,
+      "height": 180,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 835,
+      "width": 700,
+      "height": 325,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/pour-homme-edt-natural-spray-hombre-60124",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1160,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/defy-edt-calvin-klein-hombre-269",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1470,
+      "width": 700,
+      "height": 350,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/scandal-absolu-him-parfum-jean-paul-gaultier-hombre-38754",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1820,
+      "width": 700,
+      "height": 93,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/perfumeria?subcategory=perfumes-de-hombre",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1913,
+      "width": 700,
+      "height": 302,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/campana-perfumeria862653?campaignType=products",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2215,
+      "width": 700,
+      "height": 101,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/74359",
+      "order": 7
+    }
+  ]
+}

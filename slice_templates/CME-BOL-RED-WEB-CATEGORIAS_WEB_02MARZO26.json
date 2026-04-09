@@ -1,0 +1,122 @@
+{
+  "name": "CME-BOL-RED-WEB-CATEGORIAS_WEB_02MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2904
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 163,
+      "width": 700,
+      "height": 700,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 863,
+      "width": 700,
+      "height": 120,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 983,
+      "width": 700,
+      "height": 288,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1271,
+      "width": 700,
+      "height": 296,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1567,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1682,
+      "width": 700,
+      "height": 300,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260319_GYE_UIO-20260322_UIO_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1982,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260326_GYE_MIA-20260329_MIA_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2292,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2407,
+      "width": 700,
+      "height": 253,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2660,
+      "width": 700,
+      "height": 94,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/ba4be",
+      "order": 9
+    }
+  ]
+}

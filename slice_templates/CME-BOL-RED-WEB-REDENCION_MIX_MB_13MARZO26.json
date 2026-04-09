@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-REDENCION_MIX_MB_13MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2170
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 153,
+      "width": 700,
+      "height": 183,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 336,
+      "width": 700,
+      "height": 294,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/secador-de-cabello-portatil-umco-31556",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 630,
+      "width": 700,
+      "height": 303,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/camara-deportiva-sumergible-full-hd-steren-16044",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 933,
+      "width": 700,
+      "height": 342,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/single/20260403_UIO_BOG/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1275,
+      "width": 700,
+      "height": 319,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/single/20260326_UIO_GPS/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1594,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1709,
+      "width": 700,
+      "height": 252,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos​",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1961,
+      "width": 700,
+      "height": 82,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

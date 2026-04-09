@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-LO_MAS_CANGEADO_HOMBRE_25MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1869
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 164,
+      "width": 700,
+      "height": 705,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 869,
+      "width": 239,
+      "height": 415,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/tostadora-black-decker-2-rebanadas-68355",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 239,
+      "y": 869,
+      "width": 224,
+      "height": 415,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/camara-para-auto-xiaomi-dashcam-70mai-m310-67282",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 463,
+      "y": 869,
+      "width": 237,
+      "height": 415,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/celular-infinix-hot-60i-68022",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1284,
+      "width": 700,
+      "height": 103,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1387,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1638,
+      "width": 700,
+      "height": 82,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

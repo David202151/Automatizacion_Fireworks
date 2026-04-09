@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-ACT-WEB-CATEGORIAS_04FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2227
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 155,
+      "width": 700,
+      "height": 595,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 750,
+      "width": 700,
+      "height": 300,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1050,
+      "width": 700,
+      "height": 296,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1346,
+      "width": 700,
+      "height": 294,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1640,
+      "width": 700,
+      "height": 110,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1750,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2006,
+      "width": 700,
+      "height": 82,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/67eb0",
+      "order": 6
+    }
+  ]
+}

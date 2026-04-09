@@ -1,0 +1,56 @@
+{
+  "name": "CME-BOL-ACT-WEB-PREMIOS_V1_26MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1378
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 80,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 131,
+      "width": 700,
+      "height": 893,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1024,
+      "width": 700,
+      "height": 105,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1129,
+      "width": 700,
+      "height": 101,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/9B1A1",
+      "order": 3
+    }
+  ]
+}

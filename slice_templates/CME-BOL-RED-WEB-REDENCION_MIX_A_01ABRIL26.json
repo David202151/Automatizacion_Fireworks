@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-REDENCION_MIX_A_01ABRIL26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2229
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 157,
+      "width": 700,
+      "height": 622,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 779,
+      "width": 350,
+      "height": 460,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/mochila-gaston-luga-splash-29781​​",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 779,
+      "width": 350,
+      "height": 460,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/smartwatch-samsung-galaxy-6-62743",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1239,
+      "width": 350,
+      "height": 478,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260514_UIO_MIA-20260517_MIA_UIO/all/any/all-stops/international/1_adult/0_child/0_infant​​",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1239,
+      "width": 350,
+      "height": 478,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260515_UIO_LGA-20260518_LGA_UIO/all/any/all-stops/international/1_adult/0_child/0_infant​",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1717,
+      "width": 700,
+      "height": 93,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1810,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": true,
+      "url": "https://onelink.to/appclubmiles1",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2010,
+      "width": 700,
+      "height": 69,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

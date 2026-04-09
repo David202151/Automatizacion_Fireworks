@@ -1,0 +1,100 @@
+{
+  "name": "BGR-BOL-ACT-WEB-BIENVENIDA_03MARZOs26",
+  "brand": "bgr",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2807
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 120,
+      "width": 700,
+      "height": 1343,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1463,
+      "width": 324,
+      "height": 57,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 324,
+      "y": 1463,
+      "width": 376,
+      "height": 57,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1520,
+      "width": 700,
+      "height": 830,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2350,
+      "width": 700,
+      "height": 66,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2416,
+      "width": 700,
+      "height": 46,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2462,
+      "width": 700,
+      "height": 39,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2501,
+      "width": 700,
+      "height": 229,
+      "type": "image",
+      "has_url": true,
+      "url": "https://drive.google.com/file/d/1r4MiqhpTLWVxm-tcjA3_ieFp8tI-od9M/view?usp=sharing",
+      "order": 7
+    }
+  ]
+}

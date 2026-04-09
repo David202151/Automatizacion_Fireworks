@@ -1,0 +1,89 @@
+{
+  "name": "BGR-BOL-RED-WEB-EDUCATIVO_VUELOS_20ENERO26",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2784
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 121,
+      "width": 700,
+      "height": 621,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 742,
+      "width": 700,
+      "height": 1488,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 2230,
+      "width": 700,
+      "height": 125,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 2355,
+      "width": 700,
+      "height": 55,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/viajes/vuelos",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2410,
+      "width": 700,
+      "height": 56,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2466,
+      "width": 700,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2501,
+      "width": 700,
+      "height": 213,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/95fbb",
+      "order": 6
+    }
+  ]
+}

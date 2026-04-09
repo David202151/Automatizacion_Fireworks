@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_GENERALES_13FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2316
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 155,
+      "width": 700,
+      "height": 652,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 807,
+      "width": 700,
+      "height": 294,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1101,
+      "width": 700,
+      "height": 307,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1408,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1718,
+      "width": 700,
+      "height": 112,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1830,
+      "width": 700,
+      "height": 251,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2081,
+      "width": 700,
+      "height": 97,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

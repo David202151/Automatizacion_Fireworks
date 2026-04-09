@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_GENERALES_19MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2277
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 166,
+      "width": 700,
+      "height": 621,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 787,
+      "width": 350,
+      "height": 444,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/cerradura-halo-smart-con-codigo-250-kwikset-1716",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 787,
+      "width": 350,
+      "height": 444,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/horno-tostador-chefman-31839",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1231,
+      "width": 350,
+      "height": 455,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/pala-de-padel-bullpadel-hack-04-hybrid-25y-55219",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1231,
+      "width": 350,
+      "height": 455,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/impresora-epson-l4360-multifuncional-66283",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1686,
+      "width": 700,
+      "height": 110,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1796,
+      "width": 700,
+      "height": 250,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos​",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2046,
+      "width": 700,
+      "height": 84,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

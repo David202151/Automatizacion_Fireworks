@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-FLASH_SALES_MA_25FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2393
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 160,
+      "width": 700,
+      "height": 780,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 940,
+      "width": 700,
+      "height": 285,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-deportivos-hombre-sirocco-alta-craft-hey-dude-54095",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1225,
+      "width": 700,
+      "height": 290,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/gafas-de-sol-kypers-eyewear-clip-on-xenia-8861",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1515,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/combo-televisor-32-sanduchera-6478",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1825,
+      "width": 700,
+      "height": 117,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/flash-sales561659?campaignType=products",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1942,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/flash-sales561659?campaignType=products",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2193,
+      "width": 700,
+      "height": 72,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

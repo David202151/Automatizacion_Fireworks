@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-ACT-WEB-PRODUCTOS_VC_27FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2800
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 162,
+      "width": 700,
+      "height": 727,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 889,
+      "width": 700,
+      "height": 291,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1180,
+      "width": 700,
+      "height": 344,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1524,
+      "width": 700,
+      "height": 330,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1854,
+      "width": 700,
+      "height": 328,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2182,
+      "width": 700,
+      "height": 120,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2302,
+      "width": 700,
+      "height": 253,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2555,
+      "width": 700,
+      "height": 95,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/ba4be",
+      "order": 7
+    }
+  ]
+}

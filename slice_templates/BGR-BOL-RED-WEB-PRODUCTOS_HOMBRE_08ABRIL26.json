@@ -1,0 +1,111 @@
+{
+  "name": "BGR-BOL-RED-WEB-PRODUCTOS_HOMBRE_08ABRIL26",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2542
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 116,
+      "width": 700,
+      "height": 813,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 929,
+      "width": 700,
+      "height": 282,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/crema-de-manos-uriage-bariederm-50-ml-63928",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1211,
+      "width": 700,
+      "height": 279,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/crema-de-manos-uriage-bariederm-50-ml-63928",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1490,
+      "width": 700,
+      "height": 282,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/protector-solar-spf-50-avene-150-ml-8044",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1772,
+      "width": 700,
+      "height": 286,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/afeitadora-rotativa-remington-9272",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2058,
+      "width": 700,
+      "height": 105,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=d5384f56-df28-4903-ba5f-4accd767c3b9",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2163,
+      "width": 700,
+      "height": 48,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2211,
+      "width": 700,
+      "height": 38,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2249,
+      "width": 700,
+      "height": 214,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

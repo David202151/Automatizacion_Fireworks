@@ -54,10 +54,10 @@ class ManualWebSlicer:
         
         # Configuración de Cloudflare R2
         self.r2_config = {
-            "access_key_id": "access_key_id",
-            "secret_access_key": "secret_access_key",
-            "endpoint": "endpoint",
-            "bucket_name": "bucket_name"
+            "access_key_id": "fcf42625ad735ad63da22100af72e684",
+            "secret_access_key": "b304706b40e5544fbc4a50c543e2ba66f5f41595c69afa1b56097dc2fce5db2a",
+            "endpoint": "https://95f977894b55126e9809447b9bd1fa20.r2.cloudflarestorage.com",
+            "bucket_name": "icare"
         }
         
         # URLs base para cada marca y tipo
@@ -2576,7 +2576,7 @@ div {
         # Crear ventana de selección
         select_window = tk.Toplevel(self.root)
         select_window.title("📂 Seleccionar Template de Recortes")
-        select_window.geometry("700x500")
+        select_window.geometry("700x550")
         select_window.transient(self.root)
         select_window.grab_set()
         
@@ -2588,12 +2588,22 @@ div {
         tk.Label(header_frame, text="📂 SELECCIONAR TEMPLATE DE RECORTES", 
                 font=("Arial", 14, "bold"), bg="#4CAF50", fg="white").pack(pady=20)
         
+        # Frame de búsqueda
+        search_frame = ttk.Frame(select_window, padding="10 10 10 5")
+        search_frame.pack(fill=tk.X)
+        
+        ttk.Label(search_frame, text="🔍 Buscar:", font=("Arial", 10)).pack(side=tk.LEFT, padx=(0, 5))
+        
+        search_var = tk.StringVar()
+        search_entry = ttk.Entry(search_frame, textvariable=search_var, width=40)
+        search_entry.pack(side=tk.LEFT, padx=5, fill=tk.X, expand=True)
+        
         # Lista de templates
         list_frame = ttk.Frame(select_window, padding="20")
         list_frame.pack(fill=tk.BOTH, expand=True)
         
         ttk.Label(list_frame, text="Templates disponibles:", 
-                 font=("Arial", 11, "bold")).pack(anchor=tk.W, pady=(0, 10))
+                font=("Arial", 11, "bold")).pack(anchor=tk.W, pady=(0, 10))
         
         # Treeview
         columns = ("Nombre", "Marca", "Recortes", "Dimensiones")
@@ -2617,21 +2627,59 @@ div {
         
         # Cargar templates en el tree
         template_data_map = {}
+        all_templates = []  # Lista para búsqueda
+        
         for filename in template_files:
             try:
                 filepath = os.path.join(self.templates_folder, filename)
                 with open(filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 
-                template_id = tree.insert("", "end", values=(
-                    data.get("name", filename),
-                    data.get("brand", "N/A").upper(),
-                    len(data.get("slices", [])),
-                    f"{data.get('image_dimensions', {}).get('width', '?')}×{data.get('image_dimensions', {}).get('height', '?')}"
-                ))
-                template_data_map[template_id] = filepath
+                template_info = {
+                    'name': data.get("name", filename),
+                    'brand': data.get("brand", "N/A").upper(),
+                    'slices_count': len(data.get("slices", [])),
+                    'width': data.get('image_dimensions', {}).get('width', '?'),
+                    'height': data.get('image_dimensions', {}).get('height', '?'),
+                    'filepath': filepath
+                }
+                all_templates.append(template_info)
+                
             except Exception as e:
                 print(f"Error cargando {filename}: {e}")
+        
+        def populate_tree(filter_text=""):
+            """Poblar el tree con los templates, aplicando filtro si existe"""
+            # Limpiar tree
+            for item in tree.get_children():
+                tree.delete(item)
+            
+            template_data_map.clear()
+            filter_text = filter_text.lower().strip()
+            
+            for template_info in all_templates:
+                # Aplicar filtro
+                if filter_text:
+                    searchable_text = f"{template_info['name']} {template_info['brand']}".lower()
+                    if filter_text not in searchable_text:
+                        continue
+                
+                template_id = tree.insert("", "end", values=(
+                    template_info['name'],
+                    template_info['brand'],
+                    template_info['slices_count'],
+                    f"{template_info['width']}×{template_info['height']}"
+                ))
+                template_data_map[template_id] = template_info['filepath']
+        
+        # Poblar inicialmente
+        populate_tree()
+        
+        # Función de búsqueda
+        def on_search(*args):
+            populate_tree(search_var.get())
+        
+        search_var.trace('w', on_search)
         
         # Info frame
         info_frame = ttk.Frame(select_window, padding="20")
@@ -2733,21 +2781,23 @@ div {
                 select_window.destroy()
                 
                 messagebox.showinfo("✅ Template Cargado", 
-                                  f"Se cargaron {loaded_count} recortes exitosamente\n\n"
-                                  f"Template: {data.get('name', 'Sin nombre')}\n"
-                                  f"Total de recortes ahora: {len(self.slices)}")
+                                f"Se cargaron {loaded_count} recortes exitosamente\n\n"
+                                f"Template: {data.get('name', 'Sin nombre')}\n"
+                                f"Total de recortes ahora: {len(self.slices)}")
                 
             except Exception as e:
                 messagebox.showerror("Error", f"No se pudo cargar el template:\n{str(e)}")
         
         ttk.Button(button_frame, text="✅ Cargar Seleccionado", 
-                  command=load_selected).pack(side=tk.RIGHT, padx=5)
+                command=load_selected).pack(side=tk.RIGHT, padx=5)
         ttk.Button(button_frame, text="❌ Cancelar", 
-                  command=select_window.destroy).pack(side=tk.RIGHT, padx=5)
+                command=select_window.destroy).pack(side=tk.RIGHT, padx=5)
         
         # Doble click para cargar
         tree.bind('<Double-1>', lambda e: load_selected())
-    
+        
+        # Focus en el campo de búsqueda
+        search_entry.focus_set()
     def manage_templates(self):
         """Ventana para gestionar templates guardados"""
         template_files = [f for f in os.listdir(self.templates_folder) if f.endswith('.json')]
@@ -3156,3 +3206,4 @@ Configuración: {self.app.brand.get().upper()}"""
 if __name__ == "__main__":
     app = ManualWebSlicer()
     app.root.mainloop()
+    

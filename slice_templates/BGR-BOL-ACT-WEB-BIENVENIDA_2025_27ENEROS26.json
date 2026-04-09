@@ -1,0 +1,133 @@
+{
+  "name": "BGR-BOL-ACT-WEB-BIENVENIDA_2025_27ENEROS26",
+  "brand": "bgr",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2622
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 120,
+      "width": 700,
+      "height": 110,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 230,
+      "width": 700,
+      "height": 379,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 609,
+      "width": 700,
+      "height": 350,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 959,
+      "width": 700,
+      "height": 1400,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2359,
+      "width": 700,
+      "height": 93,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2452,
+      "width": 700,
+      "height": 44,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2496,
+      "width": 700,
+      "height": 47,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2543,
+      "width": 59,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.facebook.com/BGRoficial?mibextid=LQQJ4d",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 59,
+      "y": 2543,
+      "width": 38,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.instagram.com/bgr_ecuador?igshid=NTc4MTIwNjQ2YQ%3D%3D",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 97,
+      "y": 2543,
+      "width": 36,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.youtube.com/@MERCADEOBGR",
+      "order": 9
+    },
+    {
+      "name": "slice_11",
+      "x": 133,
+      "y": 2543,
+      "width": 567,
+      "height": 35,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 10
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "BGR-BOL-RED-WEB-CATEGORIAS_28ENERO25",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1926
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 115,
+      "width": 700,
+      "height": 395,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 510,
+      "width": 700,
+      "height": 230,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=085e7509-9dd0-414f-b75b-bb3079faa5df",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 740,
+      "width": 700,
+      "height": 220,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=93a7115c-835b-4995-a870-6a110f242c56",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 960,
+      "width": 700,
+      "height": 230,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=c4d17ff9-ce3d-4713-a152-278e7df2d941",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1190,
+      "width": 700,
+      "height": 220,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=d5384f56-df28-4903-ba5f-4accd767c3b9",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1410,
+      "width": 700,
+      "height": 95,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1505,
+      "width": 700,
+      "height": 85,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1590,
+      "width": 700,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1625,
+      "width": 700,
+      "height": 213,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

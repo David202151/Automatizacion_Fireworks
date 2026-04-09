@@ -1,0 +1,122 @@
+{
+  "name": "CME-BOL-RED-WEB-SV_GENERO_MASCULINO_10FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2932
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 154,
+      "width": 700,
+      "height": 783,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 938,
+      "width": 350,
+      "height": 601,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/jarra-stanley-vaso-cervecero-adventure-big-grip-beer-stein-68902",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 937,
+      "width": 350,
+      "height": 602,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/one-essence-intense-parfum-calvin-klein-unisex-61910",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1539,
+      "width": 350,
+      "height": 600,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-new-balance-lifestyle-471-unisex-entresuela-eva-67574",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1539,
+      "width": 350,
+      "height": 600,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/bolso-manos-libres-bosi-aveiro-68716",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2139,
+      "width": 700,
+      "height": 114,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2253,
+      "width": 700,
+      "height": 252,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2505,
+      "width": 700,
+      "height": 101,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2606,
+      "width": 700,
+      "height": 98,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/san-valentin",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2704,
+      "width": 700,
+      "height": 87,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/67eb0",
+      "order": 9
+    }
+  ]
+}

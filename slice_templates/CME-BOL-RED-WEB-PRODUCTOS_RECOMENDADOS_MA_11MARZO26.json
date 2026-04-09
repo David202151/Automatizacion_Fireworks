@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_RECOMENDADOS_MA_11MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2250
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 164,
+      "width": 700,
+      "height": 603,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 767,
+      "width": 350,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/combo-televisor-32-fhd-hdr-barra-de-sonido-42846​",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 767,
+      "width": 350,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/lavadora-lg-wt22obtx6-22kg-73734​",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1237,
+      "width": 350,
+      "height": 474,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/horno-de-pizza-a-gas-koda-ooni-17492",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 350,
+      "y": 1237,
+      "width": 350,
+      "height": 474,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/iphone-15-apple-36603​",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1711,
+      "width": 700,
+      "height": 106,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/productos?q=hogar%20y%20cocina&category=todas-las-categorias​",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1817,
+      "width": 700,
+      "height": 203,
+      "type": "image",
+      "has_url": true,
+      "url": "https://onelink.to/appclubmiles1",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2020,
+      "width": 700,
+      "height": 78,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

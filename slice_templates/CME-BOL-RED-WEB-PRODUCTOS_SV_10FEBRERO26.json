@@ -1,0 +1,122 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_SV_10FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 3251
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 154,
+      "width": 700,
+      "height": 786,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 940,
+      "width": 700,
+      "height": 385,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/mandarina-duck-for-him-6996",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1325,
+      "width": 700,
+      "height": 355,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/termo-stanley-quencher-h2.0-68905",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1680,
+      "width": 700,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/smartwatch-cubbit-viva-pro-2-67332",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2075,
+      "width": 700,
+      "height": 370,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/camara-akaso-ek700-pro-107",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2445,
+      "width": 700,
+      "height": 127,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2572,
+      "width": 700,
+      "height": 252,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2824,
+      "width": 700,
+      "height": 101,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2925,
+      "width": 700,
+      "height": 100,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/san-valentin",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 3025,
+      "width": 700,
+      "height": 88,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/67eb0",
+      "order": 9
+    }
+  ]
+}

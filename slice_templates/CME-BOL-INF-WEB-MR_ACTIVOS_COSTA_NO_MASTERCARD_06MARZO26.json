@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-INF-WEB-MR_ACTIVOS_COSTA_NO_MASTERCARD_06MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2259
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 118,
+      "width": 700,
+      "height": 1000,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1118,
+      "width": 700,
+      "height": 205,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1323,
+      "width": 238,
+      "height": 345,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 238,
+      "y": 1323,
+      "width": 227,
+      "height": 345,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 465,
+      "y": 1323,
+      "width": 235,
+      "height": 345,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1668,
+      "width": 700,
+      "height": 112,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1780,
+      "width": 700,
+      "height": 251,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2031,
+      "width": 700,
+      "height": 89,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "DVE-BOL-RED-WEB-COPAGO_26MARZO26",
+  "brand": "discover",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2067
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 157,
+      "width": 700,
+      "height": 480,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 637,
+      "width": 700,
+      "height": 270,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/termo-stanley-quencher-karol-g-flor-77551",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 907,
+      "width": 700,
+      "height": 265,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/parlante-vibe-360-klip-xtreme-100",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1172,
+      "width": 700,
+      "height": 265,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/audifonos-samsung-fe-galaxy-66232",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1437,
+      "width": 700,
+      "height": 275,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/signorina-ribelle-edp-salvatore-ferragamo-mujer-8087",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1712,
+      "width": 700,
+      "height": 80,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1792,
+      "width": 700,
+      "height": 101,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store",
+      "order": 6
+    }
+  ]
+}

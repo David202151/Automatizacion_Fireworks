@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-BIENESTAR_31MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2000
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 164,
+      "width": 700,
+      "height": 196,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 360,
+      "width": 700,
+      "height": 359,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/fitness?subcategory=implementos-deportivos&order=products-points-asc",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 719,
+      "width": 700,
+      "height": 316,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/relojeria?subcategory=smartwatches",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1035,
+      "width": 700,
+      "height": 340,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/fitness?subcategory=proteinas-y-suplementos",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1375,
+      "width": 700,
+      "height": 124,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/categoria-destacada252025?campaignType=products",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1499,
+      "width": 700,
+      "height": 267,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/categoria-destacada252025?campaignType=products",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1766,
+      "width": 700,
+      "height": 89,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

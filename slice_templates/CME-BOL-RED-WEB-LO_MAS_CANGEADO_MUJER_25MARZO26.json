@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-LO_MAS_CANGEADO_MUJER_25MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1896
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 165,
+      "width": 700,
+      "height": 708,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 873,
+      "width": 239,
+      "height": 438,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/termo-stanley-quick-flip-go-rose-quartz-64347",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 239,
+      "y": 873,
+      "width": 224,
+      "height": 438,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/bain-therapiste-resistance-kerastase-250ml-37469",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 463,
+      "y": 873,
+      "width": 237,
+      "height": 438,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/sanduchera-oster-ckstsm3884-9860",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1311,
+      "width": 700,
+      "height": 103,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1414,
+      "width": 700,
+      "height": 252,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/todos-los-productos",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1666,
+      "width": 700,
+      "height": 82,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

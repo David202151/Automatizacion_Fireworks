@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_MIX_SIERRA_MA_03FEBREROs26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2824
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 153,
+      "width": 700,
+      "height": 792,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 945,
+      "width": 700,
+      "height": 324,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/secador-de-cabello-remington-airvive-68368",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1269,
+      "width": 700,
+      "height": 303,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/gafas-de-sol-jbl-33682",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1572,
+      "width": 700,
+      "height": 321,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/experiencia/kapari-natural-lodge-spa-experience​",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1893,
+      "width": 700,
+      "height": 312,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/nintendo-switch-101",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2205,
+      "width": 700,
+      "height": 143,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2348,
+      "width": 700,
+      "height": 252,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/san-valentin-cme782681",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2600,
+      "width": 700,
+      "height": 83,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/6172a",
+      "order": 7
+    }
+  ]
+}

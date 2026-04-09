@@ -1,0 +1,122 @@
+{
+  "name": "BGR-BOL-RED-WEB-MIX_PRODUCTOS_MB_SIERRA_27MARZO2026",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2677
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 120,
+      "width": 700,
+      "height": 845,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 965,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/termo-stanley-quencher-karol-g-flor-77551",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1300,
+      "width": 700,
+      "height": 325,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/set-reloj-skechers-sr9030-y-pulsera-hombre-5669",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1625,
+      "width": 700,
+      "height": 65,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1690,
+      "width": 350,
+      "height": 515,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260514_GYE_MIA/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 350,
+      "y": 1690,
+      "width": 350,
+      "height": 515,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/single/20260514_GYE_CTG/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2205,
+      "width": 700,
+      "height": 90,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2295,
+      "width": 700,
+      "height": 51,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2346,
+      "width": 700,
+      "height": 40,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2386,
+      "width": 700,
+      "height": 213,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    }
+  ]
+}

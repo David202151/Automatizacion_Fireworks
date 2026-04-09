@@ -1,0 +1,100 @@
+{
+  "name": "BGR-BOL-ACT-WEB-BENEFICIOS_19ENERO26",
+  "brand": "bgr",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1841
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 101,
+      "width": 700,
+      "height": 770,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 871,
+      "width": 230,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 230,
+      "y": 871,
+      "width": 240,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 470,
+      "y": 871,
+      "width": 230,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1341,
+      "width": 700,
+      "height": 90,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1431,
+      "width": 700,
+      "height": 85,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1516,
+      "width": 700,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1551,
+      "width": 700,
+      "height": 197,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

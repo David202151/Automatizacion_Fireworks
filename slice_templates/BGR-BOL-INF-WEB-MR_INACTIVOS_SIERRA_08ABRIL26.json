@@ -1,0 +1,155 @@
+{
+  "name": "BGR-BOL-INF-WEB-MR_INACTIVOS_SIERRA_08ABRIL26",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2153
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 105,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 105,
+      "width": 700,
+      "height": 14,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 119,
+      "width": 700,
+      "height": 397,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 516,
+      "width": 700,
+      "height": 90,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 606,
+      "width": 700,
+      "height": 378,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 984,
+      "width": 700,
+      "height": 201,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/audifonos-thinkplus-xt62-lenovo-34932",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1189,
+      "width": 700,
+      "height": 172,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/flights/availability/round/20260422_UIO_MEC-20260425_MEC_UIO/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1361,
+      "width": 700,
+      "height": 228,
+      "type": "image",
+      "has_url": true,
+      "url": "https://checkout.bgrvisamiles.com.ec/hotels/filtered/UIO/2026-04-22/2026-04-24/1-adults_0-children-/Hilton%20Colon%20Quito?openDetails=true",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1589,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 1704,
+      "width": 700,
+      "height": 89,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 9
+    },
+    {
+      "name": "slice_11",
+      "x": 0,
+      "y": 1793,
+      "width": 700,
+      "height": 44,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 10
+    },
+    {
+      "name": "slice_12",
+      "x": 0,
+      "y": 1837,
+      "width": 700,
+      "height": 45,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 11
+    },
+    {
+      "name": "slice_13",
+      "x": 0,
+      "y": 1882,
+      "width": 700,
+      "height": 194,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 12
+    }
+  ]
+}

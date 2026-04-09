@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_SV_MB_COSTA_19FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2800
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 164,
+      "width": 700,
+      "height": 722,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 886,
+      "width": 700,
+      "height": 287,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/sandalias-classic-fisherman-kids-59581",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1173,
+      "width": 700,
+      "height": 352,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/parlante-go-4-jbl-waterproof-33695",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1525,
+      "width": 700,
+      "height": 340,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260310_GYE_CUE-20260314_CUE_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1865,
+      "width": 700,
+      "height": 309,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260310_GYE_UIO-20260314_UIO_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2174,
+      "width": 700,
+      "height": 129,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2303,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2554,
+      "width": 700,
+      "height": 97,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/ba4be",
+      "order": 7
+    }
+  ]
+}

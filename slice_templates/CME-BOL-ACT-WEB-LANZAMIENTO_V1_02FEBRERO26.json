@@ -1,0 +1,45 @@
+{
+  "name": "CME-BOL-ACT-WEB-LANZAMIENTO_V1_02FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1350
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 157,
+      "width": 700,
+      "height": 845,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1002,
+      "width": 700,
+      "height": 122,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1124,
+      "width": 700,
+      "height": 86,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/92a10",
+      "order": 2
+    }
+  ]
+}

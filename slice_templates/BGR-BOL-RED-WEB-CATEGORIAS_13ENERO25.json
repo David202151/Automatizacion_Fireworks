@@ -1,0 +1,100 @@
+{
+  "name": "BGR-BOL-RED-WEB-CATEGORIAS_13ENERO25",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2283
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 115,
+      "width": 700,
+      "height": 740,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 855,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=085e7509-9dd0-414f-b75b-bb3079faa5df",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1165,
+      "width": 700,
+      "height": 290,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=5fc9d4b5-4fac-4075-a8a7-c3cb1a3a2818",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1455,
+      "width": 700,
+      "height": 315,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos?category=93a7115c-835b-4995-a870-6a110f242c56",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1770,
+      "width": 700,
+      "height": 100,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mas-beneficios/ofertas/cumple-tus-metas-con-bgr-visa-miles735888",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1870,
+      "width": 700,
+      "height": 85,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1955,
+      "width": 700,
+      "height": 35,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1990,
+      "width": 700,
+      "height": 218,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

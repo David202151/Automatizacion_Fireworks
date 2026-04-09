@@ -1,0 +1,78 @@
+{
+  "name": "CME-BOL-ACT-WEB-COPAGO_NUEVOS_ENROLADOS_20FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1642
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 99,
+      "width": 700,
+      "height": 825,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 924,
+      "width": 237,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 237,
+      "y": 924,
+      "width": 227,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 464,
+      "y": 924,
+      "width": 236,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1319,
+      "width": 700,
+      "height": 97,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1416,
+      "width": 700,
+      "height": 86,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-MIX_PRODUCTOS_LAST_MINUTE_COSTA_23MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2330
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 605,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 761,
+      "width": 350,
+      "height": 525,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/reloj-invicta-ocean-predator-49453-hombre-75147",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 761,
+      "width": 350,
+      "height": 525,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/televisor-indurama-uhd-4k-75618",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1286,
+      "width": 700,
+      "height": 160,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1446,
+      "width": 700,
+      "height": 345,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260521_UIO_CTG-20260527_CTG_UIO/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1791,
+      "width": 700,
+      "height": 112,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos​",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1903,
+      "width": 700,
+      "height": 201,
+      "type": "image",
+      "has_url": true,
+      "url": "https://onelink.to/appclubmiles1",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2104,
+      "width": 700,
+      "height": 83,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/567a7",
+      "order": 7
+    }
+  ]
+}

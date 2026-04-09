@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-TURISMO_NACIONAL_13ENERO25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2736
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 154,
+      "width": 700,
+      "height": 538,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 692,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/hotels/filtered/UIO/2026-2-4/2026-2-7/2-adults_0-children-/Holiday%20Inn%20Express%20Quito?openDetails=true&openDetails=true&nationality=EC",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1027,
+      "width": 700,
+      "height": 342,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/hotels/filtered/CCN/2026-3-8/2026-3-11/2-adults_0-children-/Tryp%20By%20Wyndham%20Cuenca%20Zahir?openDetails=true&nationality=EC",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1369,
+      "width": 700,
+      "height": 332,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/hotels/filtered/MT5/2026-2-21/2026-2-24/2-adults_0-children-/Oro%20Verde%20Manta?openDetails=true&nationality=EC",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1701,
+      "width": 700,
+      "height": 119,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/potencia-tu-lado-aventurero337182?campaignType=experiences​",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1820,
+      "width": 700,
+      "height": 262,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/potencia-tu-lado-aventurero337182?campaignType=experiences​",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2082,
+      "width": 700,
+      "height": 387,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2469,
+      "width": 700,
+      "height": 125,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/72758",
+      "order": 7
+    }
+  ]
+}

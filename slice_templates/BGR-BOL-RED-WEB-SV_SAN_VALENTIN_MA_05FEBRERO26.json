@@ -1,0 +1,111 @@
+{
+  "name": "BGR-BOL-RED-WEB-SV_SAN_VALENTIN_MA_05FEBRERO26",
+  "brand": "bgr",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2653
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 116,
+      "width": 700,
+      "height": 675,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 791,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/arreglo-floral-besos-de-primavera-floreria-escarlata-13695",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1126,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/gafas-bobby-kypers-eyewear-8851",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1461,
+      "width": 700,
+      "height": 325,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/k-edt-dolce-gabbana-hombre-7891",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1786,
+      "width": 700,
+      "height": 350,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/reloj-fossil-neutra-fs5380-cronografo-hombre-5357",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2136,
+      "width": 700,
+      "height": 85,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mas-beneficios/ofertas/celebra-cada-momento375",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2221,
+      "width": 700,
+      "height": 109,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2330,
+      "width": 700,
+      "height": 30,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2360,
+      "width": 700,
+      "height": 218,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

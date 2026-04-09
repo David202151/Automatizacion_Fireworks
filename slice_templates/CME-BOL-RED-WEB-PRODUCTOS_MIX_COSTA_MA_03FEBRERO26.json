@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-PRODUCTOS_MIX_COSTA_MA_03FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2563
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 154,
+      "width": 700,
+      "height": 785,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 939,
+      "width": 700,
+      "height": 320,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/secador-de-cabello-remington-airvive-68368",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1259,
+      "width": 700,
+      "height": 320,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/smartwatch-xiaomi-watch-2-67262",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1579,
+      "width": 700,
+      "height": 393,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/experiencia/paquete-romantico-en-villa-kite",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1972,
+      "width": 700,
+      "height": 115,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/san-valentin-regalos444264?campaignType=products",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2087,
+      "width": 700,
+      "height": 250,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/san-valentin-regalos444264?campaignType=products",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2337,
+      "width": 700,
+      "height": 86,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/67eb0",
+      "order": 6
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "DVE-BOL-RED-WEB-COPAGO_MA_23MARZO26",
+  "brand": "discover",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1835
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 156,
+      "width": 700,
+      "height": 477,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 633,
+      "width": 700,
+      "height": 304,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/combo-televisor-32-fhd-hdr-barra-de-sonido-42846",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 937,
+      "width": 700,
+      "height": 262,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/camara-canon-eos-t7-58",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1199,
+      "width": 700,
+      "height": 287,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store/producto/laptop-asus-vivobook-x1504va-nj438-26866",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1486,
+      "width": 700,
+      "height": 68,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1554,
+      "width": 700,
+      "height": 110,
+      "type": "image",
+      "has_url": true,
+      "url": "https://discovercashback.ec/cashback-store",
+      "order": 5
+    }
+  ]
+}

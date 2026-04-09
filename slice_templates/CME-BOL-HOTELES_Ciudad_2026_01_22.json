@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-HOTELES_Ciudad_2026_01_22",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2397
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 145,
+      "width": 700,
+      "height": 900,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1045,
+      "width": 700,
+      "height": 285,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/hotel-morenica-del-rosario",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1330,
+      "width": 700,
+      "height": 235,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/hotel-santa-monica-cuenca",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1565,
+      "width": 700,
+      "height": 265,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/hotel-cruz-del-vado",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1830,
+      "width": 700,
+      "height": 103,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hoteles",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1933,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": true,
+      "url": "https://onelink.to/appclubmiles1",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2133,
+      "width": 700,
+      "height": 113,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    }
+  ]
+}

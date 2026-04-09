@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-VC_HOMBRE_02MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2467
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 164,
+      "width": 700,
+      "height": 738,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 902,
+      "width": 700,
+      "height": 300,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-goodyear-dalam-hombre-runnig-64528",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1202,
+      "width": 700,
+      "height": 339,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/bolso-de-viaje-totto-weekender-76277",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1541,
+      "width": 700,
+      "height": 315,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/afeitadora-recargable-twin-track-remington-9548",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1856,
+      "width": 700,
+      "height": 114,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products​",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1970,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products​",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2221,
+      "width": 700,
+      "height": 96,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/ba4be",
+      "order": 6
+    }
+  ]
+}

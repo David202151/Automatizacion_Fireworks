@@ -1,0 +1,111 @@
+{
+  "name": "CME-BOL-RED-WEB-PERFUMERIA_MUJER_18MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2125
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 155,
+      "width": 700,
+      "height": 500,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 655,
+      "width": 700,
+      "height": 145,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 800,
+      "width": 700,
+      "height": 320,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/pepe-jeans-london-edt-pepe-jeans-hombre-8024",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1120,
+      "width": 700,
+      "height": 305,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/eros-de-versace-edt-hombre-53096",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1425,
+      "width": 700,
+      "height": 310,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/fragancia-lm-men-le-parfum-hombre-60121",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1735,
+      "width": 700,
+      "height": 50,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1785,
+      "width": 700,
+      "height": 81,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/campana-perfumeria862653?campaignType=products",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1866,
+      "width": 700,
+      "height": 10,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/campana-perfumeria862653?campaignType=products",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1876,
+      "width": 700,
+      "height": 102,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/74359",
+      "order": 8
+    }
+  ]
+}

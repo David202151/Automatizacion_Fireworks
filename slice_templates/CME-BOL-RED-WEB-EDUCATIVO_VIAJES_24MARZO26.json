@@ -1,0 +1,111 @@
+{
+  "name": "CME-BOL-RED-WEB-EDUCATIVO_VIAJES_24MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2925
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 145,
+      "width": 700,
+      "height": 894,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1039,
+      "width": 700,
+      "height": 607,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1646,
+      "width": 700,
+      "height": 89,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/8cfd8",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1735,
+      "width": 700,
+      "height": 80,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1815,
+      "width": 350,
+      "height": 500,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260521_GYE_LIM-20260524_LIM_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 350,
+      "y": 1815,
+      "width": 350,
+      "height": 500,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260521_GYE_ORL-20260524_ORL_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2315,
+      "width": 700,
+      "height": 118,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2433,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 2684,
+      "width": 700,
+      "height": 92,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    }
+  ]
+}

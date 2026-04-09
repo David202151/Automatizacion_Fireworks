@@ -1,0 +1,199 @@
+{
+  "name": "CME-BOL-RED-WEB-CATEGORIA_TECNOLOGIA_06MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2244
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 17,
+      "width": 700,
+      "height": 80,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 97,
+      "width": 700,
+      "height": 730,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 828,
+      "width": 193,
+      "height": 250,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 193,
+      "y": 828,
+      "width": 302,
+      "height": 250,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/televisor-hyundai-led-4k-61851",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 495,
+      "y": 827,
+      "width": 205,
+      "height": 250,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1078,
+      "width": 212,
+      "height": 185,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/celular-xiaomi-poco-c85-655%E2%80%A6",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 212,
+      "y": 1078,
+      "width": 248,
+      "height": 185,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 460,
+      "y": 1079,
+      "width": 240,
+      "height": 184,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/audifonos-de-diadema-jbl-tune-720-26871",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 0,
+      "y": 1263,
+      "width": 89,
+      "height": 177,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 89,
+      "y": 1263,
+      "width": 283,
+      "height": 177,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/aspiradora-robot-karcher-rcv1-61265",
+      "order": 9
+    },
+    {
+      "name": "slice_11",
+      "x": 372,
+      "y": 1263,
+      "width": 328,
+      "height": 101,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 10
+    },
+    {
+      "name": "slice_12",
+      "x": 0,
+      "y": 1440,
+      "width": 372,
+      "height": 183,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 11
+    },
+    {
+      "name": "slice_13",
+      "x": 372,
+      "y": 1364,
+      "width": 258,
+      "height": 259,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/combo-camara-bolso-album-de-fotos-fujifilm-instax-mini-12-72909",
+      "order": 12
+    },
+    {
+      "name": "slice_14",
+      "x": 630,
+      "y": 1364,
+      "width": 70,
+      "height": 259,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 13
+    },
+    {
+      "name": "slice_15",
+      "x": 0,
+      "y": 1623,
+      "width": 700,
+      "height": 161,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/tecnologia",
+      "order": 14
+    },
+    {
+      "name": "slice_16",
+      "x": 0,
+      "y": 1784,
+      "width": 700,
+      "height": 250,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/categoria/tecnologia",
+      "order": 15
+    },
+    {
+      "name": "slice_17",
+      "x": 0,
+      "y": 2034,
+      "width": 700,
+      "height": 71,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 16
+    }
+  ]
+}

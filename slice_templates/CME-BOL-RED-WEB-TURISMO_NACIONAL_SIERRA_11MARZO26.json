@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-TURISMO_NACIONAL_SIERRA_11MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2756
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 170,
+      "width": 700,
+      "height": 644,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 814,
+      "width": 700,
+      "height": 312,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/oro-verde-portoviejo095911",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1126,
+      "width": 700,
+      "height": 309,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/courtyard-by-marriott-quito-airport537121",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1435,
+      "width": 700,
+      "height": 305,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/amuntai-rainforest-lodge",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1740,
+      "width": 700,
+      "height": 335,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hotel/paraiso-gastronomia-lodge-tu-mejor-tarifa-marzo",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2075,
+      "width": 700,
+      "height": 102,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hoteles",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2177,
+      "width": 700,
+      "height": 263,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/hoteles",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2440,
+      "width": 700,
+      "height": 130,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 7
+    }
+  ]
+}

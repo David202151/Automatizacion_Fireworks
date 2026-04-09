@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-SV_GENERAL_05FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 3140
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 157,
+      "width": 700,
+      "height": 784,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 941,
+      "width": 700,
+      "height": 405,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/pulsera-de-oro-clasica-levitre-54805",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1346,
+      "width": 700,
+      "height": 386,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/camara-fujifilm-instax-mini-12-65831",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1732,
+      "width": 700,
+      "height": 411,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/turismo-nacional/experiencia/relajacion-y-bienestar-para-parejas-en-hacienda-andaluza",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2143,
+      "width": 700,
+      "height": 395,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/mochila-para-laptop-bosi-lunin-74467",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2538,
+      "width": 700,
+      "height": 126,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2664,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/san-valentin-cme782681",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2915,
+      "width": 700,
+      "height": 86,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/6172a",
+      "order": 7
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "BGR-BOL-ACT-WEB-BOLERIN_EDUCATIVO_02FEBRERO26",
+  "brand": "bgr",
+  "campaign_type": "activacion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2807
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 119,
+      "width": 700,
+      "height": 550,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 669,
+      "width": 700,
+      "height": 80,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 749,
+      "width": 700,
+      "height": 1471,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 2220,
+      "width": 700,
+      "height": 125,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 2345,
+      "width": 700,
+      "height": 75,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/utilice-sus-millas/shopping/productos/cafetera-programable-hamilton-beach-16292",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2420,
+      "width": 700,
+      "height": 50,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2470,
+      "width": 700,
+      "height": 25,
+      "type": "image",
+      "has_url": true,
+      "url": "https://bgrvisamiles.com.ec/mis-millas",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2495,
+      "width": 700,
+      "height": 234,
+      "type": "image",
+      "has_url": true,
+      "url": "https://drive.google.com/file/d/1r4MiqhpTLWVxm-tcjA3_ieFp8tI-od9M/view?usp=sharing",
+      "order": 7
+    }
+  ]
+}

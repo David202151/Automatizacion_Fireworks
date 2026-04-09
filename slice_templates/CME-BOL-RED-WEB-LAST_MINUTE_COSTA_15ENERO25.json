@@ -1,0 +1,89 @@
+{
+  "name": "CME-BOL-RED-WEB-LAST_MINUTE_COSTA_15ENERO25",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v1",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2329
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 158,
+      "width": 700,
+      "height": 900,
+      "type": "gif",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1058,
+      "width": 350,
+      "height": 360,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260312_GYE_UIO-20260316_UIO_GYE/all/any/all-stops/domestic/1_adult/0_child/0_infant",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 1058,
+      "width": 350,
+      "height": 360,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/hotels/filtered/UIO/2026-02-12/2026-02-15/2-adults_0-children-/NH%20Collection%20Quito%20Royal?openDetails=true",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1418,
+      "width": 700,
+      "height": 117,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1535,
+      "width": 700,
+      "height": 200,
+      "type": "image",
+      "has_url": true,
+      "url": "https://onelink.to/appclubmiles1",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 1735,
+      "width": 700,
+      "height": 375,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2110,
+      "width": 700,
+      "height": 73,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.miles.com.ec/28f60",
+      "order": 6
+    }
+  ]
+}

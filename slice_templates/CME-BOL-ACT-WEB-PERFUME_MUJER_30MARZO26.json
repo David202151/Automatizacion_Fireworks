@@ -1,0 +1,56 @@
+{
+  "name": "CME-BOL-ACT-WEB-PERFUME_MUJER_30MARZO26",
+  "brand": "clubmiles",
+  "campaign_type": "activacion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 1316
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 80,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 142,
+      "width": 700,
+      "height": 810,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 952,
+      "width": 700,
+      "height": 90,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/?flow=onboarding",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1042,
+      "width": 700,
+      "height": 125,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/9B1A1",
+      "order": 3
+    }
+  ]
+}

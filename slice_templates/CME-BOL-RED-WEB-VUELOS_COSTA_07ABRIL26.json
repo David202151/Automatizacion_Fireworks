@@ -1,0 +1,144 @@
+{
+  "name": "CME-BOL-RED-WEB-VUELOS_COSTA_07ABRIL26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2299
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 229,
+      "width": 700,
+      "height": 90,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 319,
+      "width": 350,
+      "height": 476,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260514_GYE_MDE-20260517_MDE_GYE/all/any/all-stops/international/1_adult/0_child/0_infant​",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 350,
+      "y": 319,
+      "width": 350,
+      "height": 476,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260514_GYE_LIM-20260517_LIM_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 795,
+      "width": 700,
+      "height": 90,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 885,
+      "width": 350,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260507_GYE_NYC-20260510_NYC_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 350,
+      "y": 885,
+      "width": 350,
+      "height": 470,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260514_GYE_SCL-20260517_SCL_GYE/all/any/all-stops/international/1_adult/0_child/0_infant​",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 1355,
+      "width": 700,
+      "height": 121,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 1476,
+      "width": 350,
+      "height": 455,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260513_GYE_AUA-20260516_AUA_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 350,
+      "y": 1476,
+      "width": 350,
+      "height": 455,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260521_GYE_PUJ-20260524_PUJ_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 1931,
+      "width": 700,
+      "height": 65,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    },
+    {
+      "name": "slice_11",
+      "x": 0,
+      "y": 1996,
+      "width": 700,
+      "height": 76,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/vuelos​",
+      "order": 10
+    },
+    {
+      "name": "slice_12",
+      "x": 0,
+      "y": 2072,
+      "width": 700,
+      "height": 76,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 11
+    }
+  ]
+}

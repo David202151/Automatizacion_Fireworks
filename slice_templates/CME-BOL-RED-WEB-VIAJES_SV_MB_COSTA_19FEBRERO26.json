@@ -1,0 +1,100 @@
+{
+  "name": "CME-BOL-RED-WEB-VIAJES_SV_MB_COSTA_19FEBRERO26",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2709
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 163,
+      "width": 700,
+      "height": 722,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 885,
+      "width": 700,
+      "height": 287,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/zapatos-hombre-paul-canvas-hey-dude-54094",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1172,
+      "width": 700,
+      "height": 301,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/utilice-sus-millas/clubmiles-shopping/producto/combo-tablet-lenovo-lenovo-e310-tws-earbuds-case-67696​",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1473,
+      "width": 700,
+      "height": 301,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/ba4be",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1774,
+      "width": 700,
+      "height": 309,
+      "type": "image",
+      "has_url": true,
+      "url": "https://viaje.clubmiles.com.ec/flights/availability/round/20260309_GYE_CTG-20260315_CTG_GYE/all/any/all-stops/international/1_adult/0_child/0_infant",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2083,
+      "width": 700,
+      "height": 129,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products​",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2212,
+      "width": 700,
+      "height": 251,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/planes-para-vivir-tus-vacaciones681694?campaignType=products​",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 0,
+      "y": 2463,
+      "width": 700,
+      "height": 97,
+      "type": "image",
+      "has_url": true,
+      "url": "http://go.clubmiles.com.ec/ba4be",
+      "order": 7
+    }
+  ]
+}

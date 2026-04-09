@@ -1,0 +1,122 @@
+{
+  "name": "CME-BOL-INF-WEB-MR_ACTIVOS_COSTA_SI_MASTERCARD_08ABRIL2026",
+  "brand": "clubmiles",
+  "campaign_type": "redencion",
+  "template_version": "v2",
+  "image_dimensions": {
+    "width": 700,
+    "height": 2508
+  },
+  "slices": [
+    {
+      "name": "slice_1",
+      "x": 0,
+      "y": 120,
+      "width": 700,
+      "height": 998,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 0
+    },
+    {
+      "name": "slice_2",
+      "x": 0,
+      "y": 1118,
+      "width": 700,
+      "height": 350,
+      "type": "gif",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/de-vuelta-a-clases-con-millas536182?campaignType=products",
+      "order": 1
+    },
+    {
+      "name": "slice_3",
+      "x": 0,
+      "y": 1468,
+      "width": 700,
+      "height": 109,
+      "type": "image",
+      "has_url": true,
+      "url": "https://clubmiles.com.ec/promociones/de-vuelta-a-clases-con-millas536182?campaignType=products",
+      "order": 2
+    },
+    {
+      "name": "slice_4",
+      "x": 0,
+      "y": 1577,
+      "width": 700,
+      "height": 160,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 3
+    },
+    {
+      "name": "slice_5",
+      "x": 0,
+      "y": 1737,
+      "width": 700,
+      "height": 422,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 4
+    },
+    {
+      "name": "slice_6",
+      "x": 0,
+      "y": 2159,
+      "width": 700,
+      "height": 46,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 5
+    },
+    {
+      "name": "slice_7",
+      "x": 0,
+      "y": 2205,
+      "width": 247,
+      "height": 95,
+      "type": "image",
+      "has_url": true,
+      "url": "https://instagram.com/clubmiles_ec?igshid=YmMyMTA2M2Y=",
+      "order": 6
+    },
+    {
+      "name": "slice_8",
+      "x": 247,
+      "y": 2205,
+      "width": 206,
+      "height": 95,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.tiktok.com/@clubmiles_ec",
+      "order": 7
+    },
+    {
+      "name": "slice_9",
+      "x": 453,
+      "y": 2205,
+      "width": 247,
+      "height": 95,
+      "type": "image",
+      "has_url": true,
+      "url": "https://www.facebook.com/ClubMiles/",
+      "order": 8
+    },
+    {
+      "name": "slice_10",
+      "x": 0,
+      "y": 2300,
+      "width": 700,
+      "height": 74,
+      "type": "image",
+      "has_url": false,
+      "url": "",
+      "order": 9
+    }
+  ]
+}
