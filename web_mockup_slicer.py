@@ -54,8 +54,8 @@ class ManualWebSlicer:
         
         # Configuración de Cloudflare R2
         self.r2_config = {
-            "access_key_id": "fcf42625ad735ad63da22100af72e684",
-            "secret_access_key": "b304706b40e5544fbc4a50c543e2ba66f5f41595c69afa1b56097dc2fce5db2a",
+            "access_key_id": "TUS_CREDENCIALES",
+            "secret_access_key": "TUS_CREDENCIALES",
             "endpoint": "https://95f977894b55126e9809447b9bd1fa20.r2.cloudflarestorage.com",
             "bucket_name": "icare"
         }
